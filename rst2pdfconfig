@@ -1,0 +1,16 @@
+# This is an example config file. Modify and place in ~/.rst2pdf/config
+[general]
+# A comma-separated list of custom stylesheets. Example:
+# stylesheets="fruity.json,a4paper.json,verasans.json"
+stylesheets="pt,a4"
+# Create a compressed PDF
+# Use true/false (lower case) or 1/0
+compressed=false
+# A colon-separated list of folders to search for fonts. Example:
+# font_path="/usr/share/fonts:/usr/share/texmf-dist/fonts/"
+font_path="~/.fonts"
+# A colon-separated list of folders to search for stylesheets. Example:
+# stylesheet_path="~/styles:/usr/share/styles"
+stylesheet_path="."
+# Language to be used for hyphenation support
+language="en_US"
